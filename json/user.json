@@ -1,0 +1,52 @@
+[
+    {
+        "router": "/user",
+        "method": "post",
+        "request": {
+            "name": "aiee",
+            "age": 18
+        },
+        "response": {
+            "code": 0,
+            "message": "ok"
+        }
+    },
+    {
+        "router": "/user",
+        "method": "get",
+        "request": {
+            "name": "aiee"
+        },
+        "response": {
+            "code": 0,
+            "message": "ok",
+            "user": {
+                "name": "aiee",
+                "age": 18
+            }
+        }
+    },
+    {
+        "router": "/user",
+        "method": "put",
+        "request": {
+            "name": "aiee",
+            "age": 19
+        },
+        "response": {
+            "code": 0,
+            "message": "ok"
+        }
+    },
+    {
+        "router": "/user",
+        "method": "delete",
+        "request": {
+            "name": "aiee"
+        },
+        "response": {
+            "code": 0,
+            "message": "ok"
+        }
+    }
+]

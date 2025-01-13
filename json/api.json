@@ -1,0 +1,12 @@
+[
+    {
+        "router": "/version",
+        "method": "get",
+        "request": {},
+        "response": {
+            "code": 0,
+            "message": "ok",
+            "version": "v1.0.0"
+        }
+    }
+]
